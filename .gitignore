@@ -1,0 +1,37 @@
+# Ignore the wp-config.php file (contains sensitive database credentials)
+wp-config.php
+
+# Ignore the WordPress core files (optional, if you don’t want to version control the core)
+# wordpress/
+# !wordpress/wp-content/
+# !wordpress/wp-content/themes/
+# !wordpress/wp-content/plugins/
+
+# Ignore the uploads folder (contains dynamic user content like images)
+wp-content/uploads/
+
+# Ignore plugins (optional, if you're not custom-developing plugins in this repo)
+# wp-content/plugins/*
+
+# Ignore upgrade and cache folders
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignore system files and OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Node.js-related (if you're using npm/yarn for your theme)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Composer-related (if you're using Composer for PHP dependencies)
+vendor/
+composer.lock
